@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="CMG Site Footer" author="CMG">
+        <Require feature="dynamic-height"/>
+    </ModulePrefs>
+    <UserPref name="iframeURL" display_name="URL to content" required="true"/>
+    <Content type="html" view="default,canvas">
+        <![CDATA[
+  <div style="overflow: auto;width: 100%;background: #e4e4e4">
+<div style="border:0px;padding:0px;margin:0px;width:100%;overflow:auto">
+    <div style="overflow:auto;margin:0 auto;display:table;min-height:200px">
+        <div style="float:left;margin:15px;min-width:190px">
+            <div style="font-size:15px;font-weight:bold;width:190px;text-align:center">Connect with us</div>
+            <ul style="margin:0;padding:0;list-style:none;overflow:auto;height:100px">
+                <li style="float:left;width:50px;height:50px">
+                    <a href="#">
+                        <img src="https://cmg-gadget.googlecode.com/git/img/facebook-icon.png" style="border:none">
+                    </a>
+                </li>
+                <li style="float:left;width:50px;height:50px">
+                    <a href="#">
+                        <img src="https://cmg-gadget.googlecode.com/git/img/twiter-icon.png" style="border:none">
+                    </a>
+                </li>
+                <li style="float:left;width:50px;height:50px">
+                    <a href="#">
+                        <img src="https://cmg-gadget.googlecode.com/git/img/google-plus-icon.png" style="border:none">
+                    </a>
+                </li>
+                <li style="float:left;width:50px;height:50px">
+                    <a href="#">
+                        <img src="https://cmg-gadget.googlecode.com/git/img/youtube-icon.png" style="border:none">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div style="float:right">
+            <div style="float:right">
+                <div style="float:left;margin:15px;min-width:120px">
+                    <span style="font-size:13px;font-weight:bold">About </span>
+                    <ul style="margin:0;padding:0;list-style:none;overflow:auto">
+                        <li><a href="http://www.c-mg.com/solutions">Who are we</a></li>
+                        <li><a href="http://www.c-mg.com/contact-us" title="Contact C-MG">Contact us</a></li>
+                        <li><a href="http://www.c-mg.com/terms/conditions" title="C-MG terms of usage">Terms of use</a></li>
+                        <li><a href="http://www.c-mg.com/terms/privacy-policy" title="C-MG privacy policy">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div style="float:left;margin:15px;min-width:120px">
+                    <span style="font-size:13px;font-weight:bold">Technology</span>
+                    <ul style="margin:0;padding:0;list-style:none;overflow:auto">
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">.Net C#</a></li>
+                        <li><a href="#">iPhone (Cocoa)</a></li>
+                        <li><a href="#">J2EE Java</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="float:right">
+                <div style="float:left;margin:15px;min-width:120px">
+                    <span style="font-size:13px;font-weight:bold">Standards</span>
+                    <ul style="margin:0;padding:0;list-style:none;overflow:auto">
+                        <li><a href="#">PMI / Prince 2</a></li>
+                        <li><a href="#">Agile / Scrum</a></li>
+                        <li><a href="#">Test driven development</a></li>
+                    </ul>
+                </div>
+                <div style="float:left;margin:15px;min-width:120px">
+                    <span style="font-size:13px;font-weight:bold">Partnerships</span>
+                    <ul style="margin:0;padding:0;list-style:none;overflow:auto">
+                        <li><a href="http://www.c-mg.com/partners/amazon-web-services" title="Amazon patner with C-MG">Amazon</a></li>
+                        <li> <a href="http://www.c-mg.com/partners/opencms" title="opencms partner with -CMG">openCMS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width:100%;text-align:center;font-size:11px;color:#727272!important">
+    © 2014 Designed by Claybourne McGregor Consulting Ltd (C-MG)
+</div>
+</div>
+  ]]>
+    </Content>
+</Module>

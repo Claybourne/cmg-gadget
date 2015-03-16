@@ -1,0 +1,16 @@
+#container {
+    width: 1040px;
+}
+#detail {
+    width: 380px;
+    float: left;
+    margin: 5px;
+}
+#player-container {
+    width: 640px;
+    float: right;
+    margin: 5px;
+}
+#title {
+    font-size: 1.9em;
+}
