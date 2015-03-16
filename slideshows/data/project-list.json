@@ -1,0 +1,37 @@
+[
+    {
+        "title": "PensionLine",
+        "description": "Multi award winning self-service pensions portal",
+        "image": "http://www.c-mg.com/pensionLine_front_page.png",
+        "link": "http://www.c-mg.com/home/solutions/pensionline",
+        "color": "#003f80"
+    },
+    {
+        "title": "Self-service pensions",
+        "description": "A decade of experience in self-service pension systems",
+        "image": "http://www.c-mg.com/pensions_self_service_front_cover.png",
+        "link": "http://www.c-mg.com/home/solutions/self-service-pensions",
+        "color": "#003f80"
+    },
+    {
+        "title": "PDF newsletter",
+        "description": "Access the latest news anytime, anywhere",
+        "image": "http://www.c-mg.com/pdf_news_front_page.png",
+        "link": "http://www.c-mg.com/home/solutions/mobile",
+        "color": "#003f80"
+    },
+    {
+        "title": "Pablo",
+        "description": "Organised and centralised administration tools",
+        "image": "http://www.c-mg.com/pablo_front_page.png",
+        "link": "http://www.c-mg.com/home/products/pablo",
+        "color": "#003f80"
+    },
+    {
+        "title": "DC pensions modeller",
+        "description": "Predict how much money you will retire on",
+        "image": "http://www.c-mg.com/dc_calc_front_page.png",
+        "link": "http://www.c-mg.com/home/solutions/mobile",
+        "color": "#003f80"
+    }
+]

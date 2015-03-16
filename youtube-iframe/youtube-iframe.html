@@ -1,0 +1,81 @@
+<script>
+    var videos = [
+        {
+            "id" : "QH5IH0NgUDA",
+            "title" : "CMG PDF Newletter",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in semper quam. Mauris rhoncus est ut scelerisque mollis. Integer quis metus ipsum."
+        },
+        {
+            "id" : "FSLZHWSEA2g",
+            "title" : "CI Process",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in semper quam. Mauris rhoncus est ut scelerisque mollis. Integer quis metus ipsum."
+        }
+    ];
+    var gadgetObj = {
+        width: '640',
+        height: '360'
+    };
+</script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div id="container">
+    <div id="detail">
+        <div id="title"></div>
+        <div id="description"></div>
+    </div>
+    <div id="player-container">
+        <div id="player"></div>
+    </div>
+</div>
+<script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var player;
+    var playlist = new Array();
+    initText(videos[0].id);
+    for(var i = 0; i < videos.length; i++) {
+        playlist.push(videos[i].id);
+    }
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: gadgetObj.height,
+            width: gadgetObj.width,
+            color: 'white',
+            playerVars: {
+
+                autohide: 1,
+                modestbranding: 0,
+                cc_load_policy: 0,
+                theme:'light',
+                playlist : playlist.join(',')
+            },
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+    }
+
+    function initText(vid) {
+        for (var i = 0; i < videos.length; i++) {
+            var v = videos[i];
+            if (v.id == vid) {
+                $("#title").html(v.title);
+                $("#description").html(v.description);
+            }
+        }
+    }
+
+    function onPlayerReady(event) {
+        //event.target.playVideo();
+    }
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var list = player.getPlaylist();
+            var currentVid = list[player.getPlaylistIndex()];
+            initText(currentVid);
+        }
+    }
+</script>

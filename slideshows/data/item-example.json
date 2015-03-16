@@ -1,0 +1,30 @@
+[
+		{
+			"header": "results driven",
+			"subheader": "iT Solutions & Services",
+			"description": "Our professional services help you address the ever evolving business and technological challenges.",
+			"image": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s2.png",
+			"thumb": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s2t.jpg"
+		},
+		{
+			"header": "web design & development",
+			"subheader": "Visually Compelling & Functional",
+			"description": "",
+			"image": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s3.png",
+			"thumb": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s3t.jpg"
+		},
+		{
+			"header": "Online marketing",
+			"subheader": "",
+			"description": "We enhance your brand, your website traffic and your bottom line online.",
+			"image": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s4.png",
+			"thumb": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s4t.jpg"
+		},
+		{
+			"header": "web hosting",
+			"subheader": "",
+			"description": "we offer the web's best hosting plans for every site.",
+			"image": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s5.png",
+			"thumb": "https://cmg-gadget.googlecode.com/git/slideshows/img/major/s5t.jpg"
+		}
+]
