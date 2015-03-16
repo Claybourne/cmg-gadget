@@ -3,8 +3,8 @@ var items = [
         {
             "title": "Bespoke solutions",
             "description": "Combining the best of both technology and business. Listening to clients and understanding what is required. Creating phased deliverables to simplify and assist with rapid Return On Investment. Minimising risk through prototyping and test driven development.",
-            "image": "http://claybourne.github.io/cmg-gadget/img/banner/banner-1.png",
-            "thumb": "http://claybourne.github.io/cmg-gadget/slideshows/img/major/s2t.jpg",
+            "image": "https://claybourne.github.io/cmg-gadget/img/banner/banner-1.png",
+            "thumb": "https://claybourne.github.io/cmg-gadget/slideshows/img/major/s2t.jpg",
             "link": "https://sites.google.com/a/c-mg.com/sites-template-development/",
             "background": "#ebe6e0",
             "color": "#000000"
@@ -12,8 +12,8 @@ var items = [
         {
             "title": "We develop exceptional solutions to improve performance in outstanding businesses",
             "description": "We pride ourselves on finding simple ways to solve difficult problems",
-            "image": "http://claybourne.github.io/cmg-gadget/img/banner/banner-2.png",
-            "thumb": "http://claybourne.github.io/cmg-gadget/slideshows/img/major/s3t.jpg",
+            "image": "https://claybourne.github.io/cmg-gadget/img/banner/banner-2.png",
+            "thumb": "https://claybourne.github.io/cmg-gadget/slideshows/img/major/s3t.jpg",
             "link": "https://sites.google.com/a/c-mg.com/sites-template-development/",
             "background": "#c8bcb0",
             "color": "#000000"
@@ -21,8 +21,8 @@ var items = [
         {
             "title": "Mobile solutions",
             "description": "Our client's request speed and our teams deliver by coding in the native OS. Mobile development means designing & building for multiple screen resolutions. We have been in mobile for 10 years, from PDAs to Smart-Phones. We have developed financial tools, games and analytic tools. Our automated testing framework tests Apps on over 40 devices.",
-            "image": "http://claybourne.github.io/cmg-gadget/img/banner/banner-3.png",
-            "thumb": "http://claybourne.github.io/cmg-gadget/slideshows/img/major/s4t.jpg",
+            "image": "https://claybourne.github.io/cmg-gadget/img/banner/banner-3.png",
+            "thumb": "https://claybourne.github.io/cmg-gadget/slideshows/img/major/s4t.jpg",
             "link": "https://sites.google.com/a/c-mg.com/sites-template-development/",
             "background": "#cabeb0",
             "color": "#000000"

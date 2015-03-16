@@ -14,22 +14,22 @@
             <ul style="margin:0;padding:0;list-style:none;overflow:auto;height:100px">
                 <li style="float:left;width:50px;height:50px">
                     <a href="#">
-                        <img src="http://claybourne.github.io/cmg-gadget/img/facebook-icon.png" style="border:none">
+                        <img src="https://claybourne.github.io/cmg-gadget/img/facebook-icon.png" style="border:none">
                     </a>
                 </li>
                 <li style="float:left;width:50px;height:50px">
                     <a href="#">
-                        <img src="http://claybourne.github.io/cmg-gadget/img/twiter-icon.png" style="border:none">
+                        <img src="https://claybourne.github.io/cmg-gadget/img/twiter-icon.png" style="border:none">
                     </a>
                 </li>
                 <li style="float:left;width:50px;height:50px">
                     <a href="#">
-                        <img src="http://claybourne.github.io/cmg-gadget/img/google-plus-icon.png" style="border:none">
+                        <img src="https://claybourne.github.io/cmg-gadget/img/google-plus-icon.png" style="border:none">
                     </a>
                 </li>
                 <li style="float:left;width:50px;height:50px">
                     <a href="#">
-                        <img src="http://claybourne.github.io/cmg-gadget/img/youtube-icon.png" style="border:none">
+                        <img src="https://claybourne.github.io/cmg-gadget/img/youtube-icon.png" style="border:none">
                     </a>
                 </li>
             </ul>

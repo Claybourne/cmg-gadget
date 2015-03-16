@@ -227,7 +227,7 @@ function initData() {
     var params = {};
     var url;
     var type;
-    var baseUrl = "http://claybourne.github.io/cmg-gadget/slideshows/";
+    var baseUrl = "https://claybourne.github.io/cmg-gadget/slideshows/";
     params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.TEXT;
     gadgets.io.makeRequest(
         generateNoCacheUrl(prefs.getString("DataURL")),
