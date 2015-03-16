@@ -46,9 +46,9 @@
      </UserPref>
   <Content type="html">
   <![CDATA[
-    <link rel="stylesheet" type="text/css" href="https://cmg-gadget.googlecode.com/git/youtube-iframe/main.css">
+    <link rel="stylesheet" type="text/css" href="http://claybourne.github.io/cmg-gadget/youtube-iframe/main.css">
     <!--[if lt IE 9]>
-    <link rel="stylesheet" type="text/css" href="https://cmg-gadget.googlecode.com/git/youtube-iframe/main-ie.css"/>
+    <link rel="stylesheet" type="text/css" href="http://claybourne.github.io/cmg-gadget/youtube-iframe/main-ie.css"/>
     <![endif]-->
     <div id="container">
     <div id="detail">
@@ -60,7 +60,7 @@
     </div>
 </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cmg-gadget.googlecode.com/git/youtube-iframe/main.js"></script>
+    <script type="text/javascript" src="http://claybourne.github.io/cmg-gadget/youtube-iframe/main.js"></script>
   ]]>
   </Content>
 </Module>
